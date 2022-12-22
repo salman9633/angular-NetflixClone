@@ -1,3 +1,5 @@
+import { Title } from "@angular/platform-browser";
+
 export interface Movie {
     dates:Dates;
     page:number;
@@ -22,6 +24,7 @@ export interface resultsEntity{
     poster_path:string;
     release_date:string;
     title:string;
+    vote_average: number;
     video:boolean;
 
 }

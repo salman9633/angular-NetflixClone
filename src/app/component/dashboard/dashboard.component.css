@@ -1,3 +1,9 @@
 *{
     overflow: hidden;
 }
+.card:hover{
+    width: 300px;
+    height: 300px;
+    transition: 0.08ms;
+    transform: scale(1.1);
+}
